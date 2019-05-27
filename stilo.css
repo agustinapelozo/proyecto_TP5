@@ -1,0 +1,123 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7 {
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 150%; 
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("11.jpg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("resto1.jpg");
+  min-height: 100%;
+}
+.bgimg-3 {
+  background-image: url("evento.jpg");
+  min-height: 100%;
+}
+.bgimg-4 {
+  background-image: url("hotel.jpg");
+  min-height: 100%;
+}
+.bgimg-5 {
+  background-image: url("habi3.jpg");
+  min-height: 100%;
+}
+.bgimg-6 {
+  background-image: url("habi2.jpg");
+  min-height: 100%;
+}
+.bgimg-7 {
+  background-image: url("habi1.jpg");
+  min-height: 100%;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+   }
+* {
+  padding: 0px;
+  margin: 0px;
+  }
+   
+   #header {
+    margin:auto;
+    width:500px;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+   
+   ul, ol {
+    list-style:none;
+   }
+   
+   .nav > li {
+    float:left;
+   }
+   
+   .nav li a {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+   }
+   
+   .nav li a:hover {
+    background-color:#434343;
+   }
+   
+   .nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+   }
+   
+   .nav li:hover > ul {
+    display:block;
+   }
+   
+   .nav li ul li {
+    position:relative;
+   }
+   
+   .nav li ul li ul {
+    right:-140px;
+    top:0px;
+   }
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
